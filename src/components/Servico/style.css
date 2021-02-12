@@ -1,0 +1,33 @@
+.service {
+    width: 100%;
+    background: var(--light-yellow);
+    color: var(--dark);
+    padding: 20px;
+}
+
+.service p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+} 
+
+.box-img-service {
+    background: var(--light-grey);
+    margin-top: 20px;
+}
+
+.box-img-service img {
+    width: 100%;
+}
+
+.box-img-service h4 {
+    color: var(--dark);
+}
+
+.box-paragraph-service {
+    padding: 20px;
+}
+
+.box-paragraph-service p {
+    font-weight: 400;
+}
