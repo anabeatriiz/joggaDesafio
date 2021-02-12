@@ -18,11 +18,11 @@
 }
 
 .paragraph-carousel {
-    letter-spacing: 2px;
-    line-height: 25px;
+    letter-spacing: 0.125rem;
+    line-height: 1.563rem;
     text-align: start;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.938rem;
     text-transform: uppercase;
     width: 174.52px;
     height: 110.4px;
@@ -32,19 +32,19 @@
 .paragraph-carousel::after {
     content: '';
     display: block;
-    width: 22px;
-    height: 8px;
+    width: 1.375rem;
+    height: 0.5;
     background: var(--dark);
 }
 
 .box-techs {
-    margin: 20px 0 0 0;
+    margin: 1.25rem 0 0 0;
     display: flex;
     align-items: center;
 }
 
 .box-techs img {
-    width: 80px; 
+    width: 5rem; 
 }
 
 .box-anuncios {
@@ -55,5 +55,5 @@
 .box-anuncios p {
     color: var(--white);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
 }

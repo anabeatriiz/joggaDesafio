@@ -1,6 +1,6 @@
 .box-digitalSolution {
-    padding: 20px;
-    margin-top: 35px;
+    padding: 1.25rem;
+    margin-top: 2.188rem;
     background: var(--white);
 }
 
@@ -10,8 +10,8 @@
 }
 
 .box-digitalSolution p {
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 1.25rem;
+    font-size: 1rem;
     color: var(--dark);
 }
 
@@ -19,14 +19,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 1.25rem;
+    padding: 1.25rem;
     background: var(--medium-gray);
     color: var(--white);
 }
 
 .box-fale-conosco {
-    padding: 25px;
+    padding: 1.563rem;
     background: var(--dark);
 }
 
@@ -37,34 +37,50 @@
 
 .box-fale-conosco p {
     color: var(--white);
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: 0.625rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 .btn-contato {
-    margin-top: 15px;
-    padding: 15px;
-    width: 170px;
-    height: 60px;
+    margin-top: 0.938rem;
+    padding: 0.938rem;
+    width: 10.625rem;
+    height: 3.75rem;
     background: var(--medium-green);
     border: none;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     text-transform: uppercase;
     color: var(--white);
-    border-radius: 40px;
+    border-radius: 2.5;
     text-align: center;
 }
 
 .contato-wpp {
     background: var(--medium-green);
     justify-content: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.938rem;
+    padding: 0.938rem;
+    width: 12.5rem;
+    height: 3.75rem;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 2.5rem;
+    text-align: center;
 }
 .img-iconeWpp {
-    width: 50px;
+    width: 3.125rem;
 }
 
 .contato-wpp a {
     color: var(--white);
+    
 }

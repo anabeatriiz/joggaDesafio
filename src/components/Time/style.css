@@ -9,58 +9,58 @@
 
 .box-time {
     width: 90%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     border: 1px solid var(--dark);
-    padding: 25px;
+    padding: 1.563rem;
 }
 
 .box-time h3 {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--dark);
 }
 
 .paragraph-time {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .box-btn-contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
-    padding: 15px;
-    width: 200px;
-    height: 60px;
+    margin-top: 0.938rem;
+    padding: 0.938rem;
+    width: 12.5rem;
+    height: 3.75rem;
     background: var(--blue-btn);
     border: none;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--white);
-    border-radius: 40px;
+    border-radius: 2.5rem;
     text-align: center;
 }
 
 .box-btn-contato a {
-    width: 110px;
+    width: 6.875rem;
     color: var(--white);
 }
 
 .img-iconePhone {
-    width: 40px;
+    width: 2.5rem;
     margin-right: 10px;
     border-radius: 50%;
 }
 
 .paragraph-phone {
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .parceiros h4 {
-    margin-top: 25px;
+    margin-top: 1.563rem;
     text-transform: uppercase;
     color: var(--dark);
 }
@@ -68,19 +68,19 @@
 .parceiros::after {
     content: '';
     display: block;
-    width: 35px;
-    height: 8px;
-    margin: 5px auto;
+    width: 2.188rem;
+    height: 0.5rem;
+    margin: 0.313rem auto;
     background: var(--medium-yellow);
 }
 
 .box-parceiros {
-    margin-top: 15px;
+    margin-top: 0.938rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .logo-parceiros {
-    width: 80px;
+    width: 5rem;
 }

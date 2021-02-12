@@ -3,7 +3,7 @@
     height: 120px;
     background: var(--white);
     border-radius: 50%;
-    margin: 15px;
+    margin: 0.938rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +15,8 @@
     align-items: center;
 }
 .description-icon {
-    width: 130px;
+    width: 8.125rem;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
 }

@@ -26,7 +26,7 @@ function DigitalSolution() {
                 <p>Nós apresentaremos as melhores soluções digitais para o seu negócio</p>
                 <div>
 
-                    <div className="box-btn-contato contato-wpp">
+                    <div className="contato-wpp">
                         <img className="img-iconeWpp" src={wppIcon} alt="icone do Whatsapp" />
                         <a href="https://www.jogga.com.br" target="_blank" rel="noreferrer" >Fale conosco whatsapp</a>
                     </div>

@@ -2,18 +2,18 @@
     width: 100%;
     background: var(--light-yellow);
     color: var(--dark);
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .service p {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 } 
 
 .box-img-service {
     background: var(--light-grey);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .box-img-service img {
@@ -25,7 +25,7 @@
 }
 
 .box-paragraph-service {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .box-paragraph-service p {
