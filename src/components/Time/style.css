@@ -1,0 +1,155 @@
+.section-time {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--light-grey);
+}
+
+.box-time {
+    width: 90%;
+    margin-top: 20px;
+    border: 1px solid var(--dark);
+    padding: 25px;
+}
+
+.box-time h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--dark);
+}
+
+.paragraph-time {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.box-btn-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    width: 200px;
+    height: 60px;
+    background: var(--blue-btn);
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 40px;
+    text-align: center;
+}
+.box-btn-contato a {
+    width: 110px;
+    color: var(--white);
+}
+.img-iconePhone {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.paragraph-phone {
+    font-size: 12px;
+}
+
+.parceiros h4 {
+    margin-top: 25px;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.parceiros::after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 8px;
+    margin: 5px auto;
+    background: var(--medium-yellow);
+}
+
+.box-parceiros {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo-parceiros {
+    width: 80px;
+}
+
+.box-digitalSolution {
+    padding: 20px;
+    margin-top: 35px;
+    background: var(--white);
+}
+
+.box-digitalSolution h4 {
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.box-digitalSolution p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+.benefits-jogga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--medium-gray);
+    color: var(--white);
+}
+
+.box-fale-conosco {
+    padding: 25px;
+    background: var(--dark);
+}
+
+.box-fale-conosco h4 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.box-fale-conosco p {
+    color: var(--white);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-contato {
+    margin-top: 15px;
+    padding: 15px;
+    width: 170px;
+    height: 60px;
+    background: var(--medium-green);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.contato-wpp {
+    background: var(--medium-green);
+    justify-content: normal;
+}
+.img-iconeWpp {
+    width: 50px;
+}
+
+.contato-wpp a {
+    color: var(--white);
+}
