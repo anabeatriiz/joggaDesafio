@@ -9,7 +9,7 @@
 
 .form-login {
     width: 90%;
-    height: 70vh;
+    height: 80vh;
     background: var(--white);
     border-radius: 0.188rem;
     display: flex;
@@ -34,8 +34,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1.563rem 1.563rem 0;
+    width: 100%;
+    margin-top: 1.25rem;
+    padding: 10px 15px 0;
 }
+
 
 .box-inputs label {
     letter-spacing: 1px;
@@ -64,7 +67,7 @@ input:focus {
 .btn-submit {
     width: 15.625rem;
     height: 3.125rem;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     background: var(--blue-btn);
     border: none;
     font-size: 1rem;
