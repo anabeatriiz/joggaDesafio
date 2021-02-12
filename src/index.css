@@ -1,0 +1,28 @@
+:root {
+  --light-grey: #f8f7f2;
+  --medium-gray: #707070;
+  --light-yellow: #f5e197;
+  --medium-yellow: #fcd64f;
+  --dark: #231f20;
+  --white: #ffff;
+  --blue-btn: #1162db;
+  --medium-green: #03c969;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,body {
+  height: 100%;
+  font-size: 16px;
+}
+
+.App {
+  background: var(--light-grey);
+
+}
