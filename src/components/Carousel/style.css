@@ -10,11 +10,11 @@
     padding: 2rem 0 0 0;
 }
 .carousel-image {
-   width: 80%;
+   width: 100%;
 }
 
 .carousel-image img {
-    width: 100%;
+    width: 80%;
 }
 
 .paragraph-carousel {

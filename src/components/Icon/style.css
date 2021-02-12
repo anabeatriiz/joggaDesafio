@@ -1,0 +1,22 @@
+.icon-box-img {
+    width: 120px;
+    height: 120px;
+    background: var(--white);
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description-icon {
+    width: 130px;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+}
