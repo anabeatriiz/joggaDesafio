@@ -1,0 +1,70 @@
+.box-digitalSolution {
+    padding: 20px;
+    margin-top: 35px;
+    background: var(--white);
+}
+
+.box-digitalSolution h4 {
+    text-transform: uppercase;
+    color: var(--dark);
+}
+
+.box-digitalSolution p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+.benefits-jogga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--medium-gray);
+    color: var(--white);
+}
+
+.box-fale-conosco {
+    padding: 25px;
+    background: var(--dark);
+}
+
+.box-fale-conosco h4 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.box-fale-conosco p {
+    color: var(--white);
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn-contato {
+    margin-top: 15px;
+    padding: 15px;
+    width: 170px;
+    height: 60px;
+    background: var(--medium-green);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.contato-wpp {
+    background: var(--medium-green);
+    justify-content: normal;
+}
+.img-iconeWpp {
+    width: 50px;
+}
+
+.contato-wpp a {
+    color: var(--white);
+}

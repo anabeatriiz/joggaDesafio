@@ -1,4 +1,5 @@
 import Carousel from "./components/Carousel";
+import DigitalSolution from "./components/DigitalSolution";
 import Form from "./components/Form";
 import Header from "./components/Header";
 import Info from "./components/Info";
@@ -16,6 +17,7 @@ function App() {
       <Info />
       <Servico />
       <Time />
+      <DigitalSolution />
 
     </div>
   );
