@@ -77,3 +77,15 @@ input:focus {
     color: var(--white);
     border-radius: 4px;
 }
+
+@media(min-width: 768px) {
+
+    .form-login {
+        width: 60%;
+    }
+}
+@media(min-width: 1024px) {
+    .section-form{
+        display: none;
+    }
+}

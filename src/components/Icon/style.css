@@ -3,7 +3,7 @@
     height: 120px;
     background: var(--white);
     border-radius: 50%;
-    margin: 0.938rem;
+    margin: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +19,10 @@
     text-align: center;
     font-size: 0.75rem;
     text-transform: uppercase;
+}
+
+@media(min-width: 768px) {
+    .icon-box {
+        margin: 20px;
+    }
 }

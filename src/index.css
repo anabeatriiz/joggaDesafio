@@ -28,5 +28,6 @@ html,body {
 
 .App {
   background: var(--light-grey);
+  width: 100vw;
 
 }

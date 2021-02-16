@@ -3,13 +3,17 @@
     background: var(--light-yellow);
     color: var(--dark);
     padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .service p {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: 500;
-} 
+}
 
 .box-img-service {
     background: var(--light-grey);
@@ -30,4 +34,26 @@
 
 .box-paragraph-service p {
     font-weight: 400;
+}
+
+.paragraph-service {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .paragraph-service {
+        width: 35rem;
+    }
+}
+
+@media(min-width: 768px) {
+    .box-img-service {
+        width: 80%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .box-img-service {
+        width: 70%;
+    }
 }

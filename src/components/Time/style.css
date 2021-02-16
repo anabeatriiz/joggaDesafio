@@ -82,5 +82,18 @@
 }
 
 .logo-parceiros {
-    width: 5rem;
+    width: 6rem;
+}
+
+@media(min-width: 768px) {
+    .logo-parceiros {
+        width: 9.5rem;
+    }
+}
+@media(min-width: 1024px) {
+    .logo-parceiros {
+        width: 13rem;
+    }.parceiros h4 {
+        font-size: 20px;
+    }
 }

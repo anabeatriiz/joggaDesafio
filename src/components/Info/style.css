@@ -8,6 +8,7 @@
     justify-content: flex-start;
     background: var(--light-grey);
     margin-top: 1.875rem;
+    width: 100vw;
 }
 
 .text-box {
@@ -35,4 +36,22 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media(min-width: 768px) {
+    .box-informacoes {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+    }.paragraph-info {
+        padding: 0;
+        width: 60%;
+        padding: 0 0 0 20px;
+
+    }.text-box h3 {
+        width: 250px;
+        height: 150px;
+    }.text-box {
+       width: 250px;;
+    }
 }
